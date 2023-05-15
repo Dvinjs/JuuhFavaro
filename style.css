@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --white: #fdfdfd;
+    --dark1: #39344e;
+    --dark2: #6f5e8d;
+    --dark3: #9595ae;
+    --dark4: #d746e8;
+    --dark6: #353436;
+    --cian1: #f566d6;
+    --cian2: #4cd7f0;
+    --cian2: #2b0c22;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: var(--dark1);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--dark4);
+}
+
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--cian1);
+}
+
+
+
+body{
+    background-color: var(--dark2);
+    height: 100vh;
+    font-family: 'Lato';
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: .8rem;
+    background-color: var(--dark1);
+    min-height: 50px;
+}
+
+.box-img-header{
+    height: 100%;
+}
+
+.img-logo{
+    max-width: 60px;
+    height: 100%;
+}
+
+div{
+    display: flex;
+    gap: 0.3rem;
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.nav-links:hover{
+    color: var(--cian1);
+    transition: .2s;
+    text-decoration: underline;
+}
+
+.box-btn-action{
+    display: flex;
+    gap: 1rem;
+}
+
+button{
+    padding: .6rem;
+    font-size: .9rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-act{
+    background-color: initial;
+    border: 0.5px solid var(--white);
+    color: var(--white); 
+    
+    }
+
+.btn-act:hover{
+
+    background-color:var(--cian1);
+    border: var(--white);
+}
+
+.link-action{
+    padding: 0.3rem;
+    font-size: 0.8rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+    
+
+.btn-action{
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);       
+}
+
+.btn-action:hover{
+    background-color: var(--cian1);
+    border: 1px solid var(--cian1);
+}
+
+.link-action{
+    text-decoration: none;
+    width: 50px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+section{
+    padding: 1rem;
+}
+
+.first-section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;  
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 650px;
+}
+
+.first-section >div{
+    display: flex;
+    flex-direction: column;
+    gap: rem;
+    min-width: 300px;  
+}
+
+h1{
+    font-size: 3rem;
+    color: var(--white);
+    letter-spacing: 1.5px;
+}
+
+strong{
+    color: var(--cian1)
+}
+
+.first-section p{
+    color: var(--white);
+}
+
+.box-img-main{
+    max-width: 500px;
+    padding: 0.5rem;
+}
+
+.img-profile{
+    border-radius: 50%;
+    width: 100%;
+}
+
+.second-section{
+    background-color: var(--dark1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.second-section ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.second-section ul li{
+    color: var(--white);
+    letter-spacing: 2px;
+    font-weight: bolder;
+
+}
+
+.second-section ul li:hover{
+    color: var(--cian1);
+    transition: 0.25; 
+}
+
+.title{
+    color: var(--cian1);
+}
+
+.third section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.third-section > div{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.third-section > div img{
+    width: 500px;
+    border-radius: 40px;
+}
+
+.third-section > div p{
+    max-width: 500px;
+    color: var(--white);
+    text-align: justify;
+}
+
+.title1{
+    color: var(--white);
+}
+
+.fourth-section{
+    background-color: var(--dark1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer p {
+    text-align: center;
+  }
+
+:is(.img-profile,.who-im-i){
+    box-shadow: 1px 1px 1px 1px var(--cian1)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
